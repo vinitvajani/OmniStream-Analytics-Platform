@@ -1,9 +1,9 @@
 # OmniStream Analytics Platform  
 Cloud-Native Data Engineering & Business Intelligence System
 
-OmniStream is an end-to-end AWS-powered analytics platform that simulates a modern e-commerce data ecosystem. The project demonstrates how raw batch and streaming data can be ingested, transformed, stored, and visualized through a scalable cloud-native architecture.
+OmniStream is an end-to-end AWS-powered analytics platform that simulates a modern e-commerce data ecosystem. The project demonstrates how raw batch and streaming data can be ingested, transformed, stored and visualized through a scalable cloud-native architecture.
 
-The platform combines Data Engineering, Cloud Computing, Data Warehousing, and Business Intelligence to deliver actionable insights for business users.
+The platform combines Data Engineering, Cloud Computing, Data Warehousing and Business Intelligence to deliver actionable insights for business users.
 
 ## 📌 Project Overview
 
@@ -26,6 +26,7 @@ The pipeline processes 50,000+ transactional records and transforms raw operatio
 ### High-level Flow:
 
 Batch Files → S3 Raw (Bronze Layer)  
+
 Streaming Data → Kinesis → Firehose → S3 Raw  
 
 S3 Raw → AWS Glue ETL → S3 Processed (Silver Layer)  
@@ -90,20 +91,20 @@ aws-unified-analytics-pipeline/
 
 ## 🔄 Pipeline Features
 
-✔ Batch Data Ingestion
-✔ Real-Time Streaming Ingestion
-✔ Serverless ETL Processing
-✔ Bronze / Silver / Gold Data Lake Architecture
-✔ Workflow Orchestration
-✔ Automated Monitoring & Alerting
-✔ Data Warehousing with Amazon Redshift
-✔ Interactive Business Intelligence Reporting
+- Batch Data Ingestion
+- Real-Time Streaming Ingestion
+- Serverless ETL Processing
+- Bronze / Silver / Gold Data Lake Architecture
+- Workflow Orchestration
+- Automated Monitoring & Alerting
+- Data Warehousing with Amazon Redshift
+- Interactive Business Intelligence Reporting
 
 ---
 
 ## 📊 Power BI Dashboard
 
-The analytics layer provides business users with executive-level visibility into sales performance, revenue trends, product analytics, and geographic performance.
+The analytics layer provides business users with executive-level visibility into sales performance, revenue trends, product analytics and geographic performance.
 
 ### Dashboard Capabilities
 
